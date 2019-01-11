@@ -3,7 +3,7 @@ Command-line tool to incrementally updating your Strings files from your Code an
 
 ## Usage
 ``` bash
-xcstrings.py -i <source_dir> [-i <source_dir>] -o <output_dir> [--ignore <keyword>] [--init] [--sort]
+python3 xcstrings.py -i <source_dir> [-i <source_dir>] -o <output_dir> [--ignore <keyword>] [--init] [--sort]
 ```
 
 `-i` - path to source code directory
